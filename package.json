@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "release": "bumpp --commit --tag --push"
   },
   "dependencies": {
     "next": "15.1.6",
@@ -19,6 +20,7 @@
     "@types/node": "^22.12.0",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
+    "bumpp": "^10.0.1",
     "eslint": "^9.19.0",
     "eslint-config-next": "15.1.6",
     "postcss": "^8.5.1",
